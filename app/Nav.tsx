@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Login from "./auth/Login";
+import Login from "./components/Login";
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "../pages/api/auth/[...nextauth]";
 import Logged from "./auth/Logged";
