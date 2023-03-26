@@ -32,7 +32,6 @@ export default function CreatePost() {
             }
         }
     );
-
     const submitPost = async (e: React.FormEvent) => {
         e.preventDefault();
         setIsDisabled(true);
