@@ -18,8 +18,6 @@ export default function MyPosts() {
 
     if (isLoading) return <h1>Posts is loading...</h1>;
 
-    console.log(data);
-
     return (
         <div>
             {data?.Post?.map((post) => (
